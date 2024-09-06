@@ -4,6 +4,7 @@ Part of Minor Project for 6th SEM - B. Tech. (C.S.E.) KIIT
 A Real-Time Surveillance System using Computer Vision for People Counting, Demographic Tracking, and Behavior Analysis.
 
 **Description:**
+<br>
 People Counting and Real-Time Tracking is a system designed to provide accurate people counting and demographic analysis in real-time. Using advanced technologies like OpenCV and TensorFlow, the system tracks individuals' movements in public and retail spaces, offering valuable insights into customer behavior, age estimation, and gender classification. It enhances operational efficiency, retail layout optimization, and customer satisfaction through improved data management and security measures.
 
 **Basic Functionalities:**
@@ -17,6 +18,7 @@ If a similar face is found or if the face is recognized, the system updates the 
 It stores all the entries into a CSV file, which is used to generate a line graph representing the individual's activity over time, depicting the sections visited during their showroom journey and a bar graph to analyze the average time spent by different age groups in different sections such as male, female, cashier.
 
 **Vision and Scope:**
+<br>
 The project aims to automate people counting and tracking processes, replacing manual methods with an advanced, real-time solution. By integrating security and behavioral analysis, it serves retail enterprises and public spaces by providing customer demographics, optimizing store layouts, and refining marketing strategies. The system uses dynamic tracking plots and analytics for enhanced data visualization and decision-making.
 
 **Technologies Used:**
@@ -28,13 +30,12 @@ The project aims to automate people counting and tracking processes, replacing m
 **Dataset Link:** https://drive.google.com/drive/folders/1-VWUDu6I8IXzpSQJjMCnJhI8vgGenkp1?usp=sharing
 <br>
 **Trained Model Link:** https://drive.google.com/drive/folders/16L_krFKYNkK0i3pZ0vP9mxImQJXmV8wR?usp=sharing
+<br>
 
-<br><br>
 ## HOW TO EXECUTE:
 
 ### Running Instructions:
 Python Version: 3.11 is required.
-
 <br>
 
 #### Setup Virtual Environment
@@ -57,12 +58,10 @@ cp .env.example .env
 copy .env.example .env
 
 <br>
-<br>
 
 ### Aiven Account:
 You need to create a aiven account to use PostgreSQL service.
 
-<br>
 <br>
 
 ### Setting up Environment Variable
