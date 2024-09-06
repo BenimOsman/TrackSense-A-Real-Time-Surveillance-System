@@ -30,7 +30,7 @@ The project aims to automate people counting and tracking processes, replacing m
 **Trained Model Link:** https://drive.google.com/drive/folders/16L_krFKYNkK0i3pZ0vP9mxImQJXmV8wR?usp=sharing
 
 <br><br>
-**HOW TO EXECUTE:**
+## HOW TO EXECUTE:
 
 ### Running Instructions:
 Python Version: 3.11 is required.
@@ -55,10 +55,10 @@ cp .env.example .env
 
 #### Setting up Environment Variable for Windows
 copy .env.example .env
-
+<br>
 ### Aiven Account:
 You need to create a aiven account to use PostgreSQL service.
-
+<br>
 ### Setting up Environment Variable
 **Setting up environment variable for Linux**
 cp .env.example .env
