@@ -55,10 +55,16 @@ cp .env.example .env
 
 #### Setting up Environment Variable for Windows
 copy .env.example .env
+
 <br>
+<br>
+
 ### Aiven Account:
 You need to create a aiven account to use PostgreSQL service.
+
 <br>
+<br>
+
 ### Setting up Environment Variable
 **Setting up environment variable for Linux**
 cp .env.example .env
