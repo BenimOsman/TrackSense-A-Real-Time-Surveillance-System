@@ -7,6 +7,7 @@ A Real-Time Surveillance System using Computer Vision for People Counting, Demog
 People Counting and Real-Time Tracking is a system designed to provide accurate people counting and demographic analysis in real-time. Using advanced technologies like OpenCV and TensorFlow, the system tracks individuals' movements in public and retail spaces, offering valuable insights into customer behavior, age estimation, and gender classification. It enhances operational efficiency, retail layout optimization, and customer satisfaction through improved data management and security measures.
 
 **Basic Functionalities:**
+<br>
 The project functions by capturing live video feed from webcam using OpenCV. It then employs cvlib to detect faces within the video frames. Once a face is detected, the system proceeds to perform age and gender classification. Each detected face is assigned a unique identifier using UUID, and embeddings are generated for the facial region.
 <br><br>
 Instead of storing facial embeddings and associated data in a database like PostgreSQL, cosine similarity is applied to compare the newly detected face with previously identified faces.
@@ -35,6 +36,7 @@ The project aims to automate people counting and tracking processes, replacing m
 Python Version: 3.11 is required.
 
 <br>
+
 #### Setup Virtual Environment
 python -m venv .venv
 source .venv/bin/activate
